@@ -26,8 +26,8 @@
 	<div class="lg:col-span-1">
 		<div>
 			<div class="mb-3 flex items-center text-2xl font-semibold">
-				<Logo classNames="mr-1 text-yellow-400 text-4xl" />
-				HuggingChat
+				<Logo classNames="mr-1 text-red-400 text-4xl" />
+				&nbsp;myheartcreative
 				<div
 					class="ml-3 flex h-6 items-center rounded-lg border border-gray-100 bg-gray-50 px-2 text-base text-gray-400 dark:border-gray-700/60 dark:bg-gray-800"
 				>
@@ -35,17 +35,17 @@
 				</div>
 			</div>
 			<p class="text-base text-gray-600 dark:text-gray-400">
-				Making the community's best AI chat models available to everyone.
+				Transforming communication with cutting edge AI technology
 			</p>
 		</div>
 	</div>
 	<div class="lg:col-span-2 lg:pl-24">
-		<AnnouncementBanner classNames="mb-4" title="Chat UI is now open sourced on GitHub">
+		<AnnouncementBanner classNames="mb-4" title="This is built by using Open Assistant">
 			<a
 				target="_blank"
-				href="https://github.com/huggingface/chat-ui"
+				href="https://github.com/LAION-AI/Open-Assistant"
 				class="mr-2 flex items-center underline hover:no-underline"
-				><CarbonArrowUpRight class="mr-1" /> GitHub repo</a
+				><CarbonArrowUpRight class="mr-1" /> Open Source</a
 			>
 		</AnnouncementBanner>
 		{#if isModelsModalOpen}
